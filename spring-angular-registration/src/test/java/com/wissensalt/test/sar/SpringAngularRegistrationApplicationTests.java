@@ -1,3 +1,4 @@
+/*
 package com.wissensalt.test.sar;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
@@ -58,3 +59,4 @@ public class SpringAngularRegistrationApplicationTests {
 	}
 
 }
+*/

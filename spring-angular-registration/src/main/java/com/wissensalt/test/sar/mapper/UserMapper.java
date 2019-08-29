@@ -51,6 +51,7 @@ public class UserMapper implements Converter<RequestRegistrationDTO, User> {
         user.setCode(source.getEmail());
         user.setName(source.getFirstName().concat(" ").concat(source.getLastName()));
         user.setStatus(true);
+        user.setCreatedOn(new Date());
         user.setFirstName(source.getFirstName());
         user.setLastName(source.getLastName());
         user.setMobileNumber(source.getMobileNumber());
